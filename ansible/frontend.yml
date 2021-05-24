@@ -1,0 +1,7 @@
+---
+  - hosts: frontend
+    become: yes
+    roles:
+      - { role: common }
+      - { role: nodejs }
+      - { role: frontend, tags: ['deploy'] }

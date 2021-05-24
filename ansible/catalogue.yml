@@ -1,0 +1,7 @@
+---
+  - hosts: catalogue
+    become: yes
+    roles:
+      - { role: common }
+      - { role: mysql }
+      - { role: catalogue }

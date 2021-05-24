@@ -1,0 +1,35 @@
+- name: create releases directory
+  file:
+    path: "/opt/apps/frontend/releases/{{ frontend.release.version }}"
+    state: directory
+    recurse: yes
+    mode: 0755
+
+- name: download release artifact
+  unarchive:
+    src: "{{ frontend.release.url }}"
+    dest: "/opt/apps/frontend/releases/{{ frontend.release.version }}"
+    remote_src: yes
+    mode: 0755
+
+- name: create relase symlink
+  file:
+    src: "/opt/apps/frontend/releases/{{ frontend.release.version }}"
+    dest: /opt/frontend
+    state: link
+  notify: restart frontend service
+
+
+- name: copy supervisor config for frontend
+  copy:
+    src: frontend.supervisor.conf
+    dest: /etc/supervisor/conf.d/frontend.conf
+    mode: 0755
+  notify: restart supervisor
+
+- meta: flush_handlers
+
+- name: start frontend service
+  supervisorctl:
+    name: frontend
+    state: started

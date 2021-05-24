@@ -1,0 +1,27 @@
+- name: create release directory
+  file:
+    path: /opt/apps/carts
+    state:
+    recurse:
+    mode:
+
+- name: download carts artifact
+  get_url:
+    url:
+    dest:
+    mode:
+  notify: restart carts service
+
+- name: copy supervisor config for frontend
+  xxx:
+    src: carts.supervisor.conf
+    dest:
+    mode:
+  notify: restart supervisor
+
+- meta: flush_handlers
+
+- name: start carts service
+  supervisorctl:
+    xxx:
+    xxx:
