@@ -12,7 +12,7 @@ Learn more: (http://34.152.53.235).
 
 ## Docker Agents to run Jenkins Jobs
 
-![Docker inside Docker diagram](resources/jonin6.jpg)
+![Docker inside Docker diagram](resources/jonin6.png)
 
 The application is designed to automatically deploy code from Developers
 using Github to the Jenkins CI/CD pipeline on Ansible Hosts. The application consists
