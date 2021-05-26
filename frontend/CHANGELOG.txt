@@ -1,0 +1,7 @@
+
+
+What has been changed from the original Weavesocks Demo App ?
+  - updated branding from weavesocks to mogambo
+  - updated banners and images for mogambo, a mobile store
+  - updated the README with installation insructions
+  
