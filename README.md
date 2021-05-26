@@ -110,3 +110,5 @@ Clone this repo and the associated tools repo:
 ```shell
 git clone --recursive https://github.com/jonindevops/capstone.git
 ```
+
+![screenshot](resources/terminal.png)
