@@ -114,3 +114,6 @@ git clone --recursive https://github.com/jonindevops/capstone.git
 ![screenshot](resources/terminal.png)
 ![screenshot](resources/jonin17.png)
 ![screenshot](resources/jonin18.png)
+
+
+#### In a Cloud computing world that the group of networked elements providing services in a high demand availability, I found that answer in Kubernetes.
