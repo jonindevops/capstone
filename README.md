@@ -5,8 +5,8 @@ The company has 12-week release cycle of which business was impacted
 due to the legacy software process. The company wants to adopt 
 the DevOps practices to gain true business value through faster feature releases, 
 service and code quality, and cost optimization. The objective of this CI/CD 
-Pipeline is to implement iterative deployments, continous innoovation, 
-and automated testing throughout the lifecycle of Development ad Operations.
+Pipeline is to implement iterative deployments, continuous innovation, 
+and automated testing throughout the lifecycle of Development and Operations.
 
 Learn more: (http://34.152.53.235).
 
@@ -15,7 +15,7 @@ Learn more: (http://34.152.53.235).
 ![Docker inside Docker diagram](resources/jonin6.png)
 
 The application is designed to automatically deploy code from Developers
-using Github to the Jenkins CI/CD pipeline on Ansible Hosts. The application consists
+using GitHub to the Jenkins CI/CD pipeline on Ansible Hosts. The application consists
 of the following components:
 
 *   **GitHub** - stores all code from Developers using Git.
@@ -47,7 +47,7 @@ of the following components:
     
 *   The Docker Host or simply called Docker inside Docker to launch container images
     whenever there is a push commit to be able to expose the application to the web.
-    The pipeline commence on Start > Build > Test > Package > Deploy > Publish. The
+    The pipeline commences on Start > Build > Test > Package > Deploy > Publish. The
     Jenkins plugin Blue Ocean is able to deploy docker agents for Jenkins jobs.
     
     ![screenshot](resources/jonin16.png)
