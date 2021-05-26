@@ -120,4 +120,4 @@ git clone --recursive https://github.com/jonindevops/capstone.git
 ![screenshot](resources/jonin18.png)
 
 
-#### In a Cloud computing world where group of networked elements demands availability, I found that answer in Kubernetes.
+#### In a Cloud computing world where group of networked elements demands high availability, I found that answer in Kubernetes.
