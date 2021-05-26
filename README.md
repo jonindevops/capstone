@@ -112,7 +112,11 @@ git clone --recursive https://github.com/jonindevops/capstone.git
 ```
 
 ![screenshot](resources/terminal.png)
+
+
 ![screenshot](resources/jonin17.png)
+
+
 ![screenshot](resources/jonin18.png)
 
 
