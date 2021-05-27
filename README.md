@@ -6,7 +6,7 @@ due to the legacy software process. The company wants to adopt
 the DevOps practices to gain true business value through faster feature releases of code, 
 service quality and costs. The objective of this CI/CD 
 Pipeline is to implement iterative deployments, continuous innovation, 
-and automated testing throughout the lifecycle of Development and Operations practices.
+and automated testing throughout the lifecycle of Development and Operations management.
 
 Learn more: (http://34.152.53.235).
 
@@ -15,7 +15,7 @@ Learn more: (http://34.152.53.235).
 ![Docker inside Docker diagram](resources/jonin6.png)
 
 The application is designed to automatically deploy code from Developers
-using GitHub to the Jenkins CI/CD pipeline on Docker Hosts. The application consists
+using GitHub to the Jenkins Continuous Integration, Continuous Delivery, Continuous Deployment pipeline on Docker Hosts. The application consists
 of the following components:
 
 *   **GitHub** - stores all code from Developers using Git.
