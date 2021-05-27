@@ -121,4 +121,4 @@ git clone --recursive https://github.com/jonindevops/capstone.git
 ![screenshot](resources/jonin18.png)
 
 
-#### In a Cloud computing world where group of networked elements demands high availability, elasticity, scalability, security, simplicity and cost, I found that flexibility in Linode and Google Cloud Kuberneteses. Welcome to GitOps!
+#### Welcome to GitOps!
