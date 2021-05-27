@@ -39,7 +39,6 @@ of the following components:
 
 
 ![Architecture diagram](resources/ArchitectureDifference.png)
-![Architecture diagram](resources/architecture.png)
 
 
 ### Configuration
