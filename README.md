@@ -15,7 +15,7 @@ Learn more: (http://34.152.53.235).
 ![Docker inside Docker diagram](resources/jonin6.png)
 
 The application is designed to automatically deploy code from Developers
-using GitHub to the Jenkins Continuous Integration, Continuous Delivery, Continuous Deployment pipeline on Docker Hosts. The application consists
+using GitHub to the Jenkins Continuous Integration, Continuous Delivery/Deployment pipeline. The application consists
 of the following components:
 
 *   **GitHub** - stores all code from Developers using Git.
