@@ -3,10 +3,10 @@
 Aetna is a leading US healthcare company in the United States. 
 The company has 12-week release cycle of which business was impacted 
 due to the legacy software process. The company wants to adopt 
-the DevOps practices to gain true business value through faster feature releases, 
-service and code quality, and cost optimization. The objective of this CI/CD 
+the DevOps practices to gain true business value through faster feature releases of code, 
+service quality and costs. The objective of this CI/CD 
 Pipeline is to implement iterative deployments, continuous innovation, 
-and automated testing throughout the lifecycle of Development and Operations.
+and automated testing throughout the lifecycle of Development and Operations practices.
 
 Learn more: (http://34.152.53.235).
 
