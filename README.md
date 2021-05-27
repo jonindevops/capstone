@@ -37,6 +37,8 @@ of the following components:
 
 ## Architecture
 
+
+![Architecture diagram](resources/ArchitectureDifference.png)
 ![Architecture diagram](resources/architecture.png)
 
 
