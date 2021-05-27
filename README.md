@@ -106,7 +106,7 @@ CMD npm start
 
 ### Dawg this repo
 
-Clone this repo and the associated tools repo:
+Clone this repo and the associated tools:
 
 ```shell
 git clone --recursive https://github.com/jonindevops/capstone.git
