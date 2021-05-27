@@ -15,7 +15,7 @@ Learn more: (http://34.152.53.235).
 ![Docker inside Docker diagram](resources/jonin6.png)
 
 The application is designed to automatically deploy code from Developers
-using GitHub to the Jenkins CI/CD pipeline on Ansible Hosts. The application consists
+using GitHub to the Jenkins CI/CD pipeline on Docker Hosts. The application consists
 of the following components:
 
 *   **GitHub** - stores all code from Developers using Git.
@@ -120,4 +120,4 @@ git clone --recursive https://github.com/jonindevops/capstone.git
 ![screenshot](resources/jonin18.png)
 
 
-#### In a Cloud computing world where group of networked elements demands high availability, I found that answer in Kubernetes.
+#### In a Cloud computing world where group of networked elements demands high availability, elasticity, security, and cost optimization, I found that flexibility in GKE Kubernetes.
