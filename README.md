@@ -50,7 +50,7 @@ of the following components:
 *   The Docker Host or simply called Docker inside Docker to launch container images
     whenever there is a push commit to be able to expose the application to the web.
     The pipeline commences on Start > Build > Test > Package > Deploy > Publish. The
-    Jenkins plugin Blue Ocean is able to deploy docker agents for Jenkins jobs.
+    Jenkins plugin Blue Ocean is able to deploy docker agents for Jenkins jobs for the deployment of packaged image(s).
     
     ![screenshot](resources/jonin16.png)
 
